@@ -1,4 +1,4 @@
-#Ejercicio Carné Joven
+# Ejercicio Carné Joven
 La Junta de Castilla y León nos ha pedido digitalizar la tarjeta joven. 
 La tarjeta joven es un carnet que permite obtener descuentos y promociones a los jóvenes menores de 30 años.
 El funcionamiento de la tarjeta joven es el siguiente:
