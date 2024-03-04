@@ -1,6 +1,5 @@
 package com.adpc.carnejoven.features.promotions.data.local;
 
-import com.adpc.carnejoven.features.buy.domain.Buy;
 import com.adpc.carnejoven.features.promotions.domain.Promotion;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
@@ -18,7 +17,7 @@ public class FileLocalDataSource {
 
     private Gson gson = new Gson();
 
-    private final Type type = new TypeToken<Buy>() {
+    private final Type type = new TypeToken<Promotion>() {
     }.getType();
 
     public void save(Promotion promotion) {

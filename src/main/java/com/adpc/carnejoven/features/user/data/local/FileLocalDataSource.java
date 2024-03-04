@@ -1,6 +1,5 @@
 package com.adpc.carnejoven.features.user.data.local;
 
-import com.adpc.carnejoven.features.buy.domain.Buy;
 import com.adpc.carnejoven.features.user.domain.User;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
@@ -17,7 +16,7 @@ public class FileLocalDataSource {
 
     private Gson gson = new Gson();
 
-    private final Type type = new TypeToken<Buy>() {
+    private final Type type = new TypeToken<User>() {
     }.getType();
 
     public void save(User user) {
